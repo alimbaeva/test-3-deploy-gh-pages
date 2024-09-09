@@ -59,5 +59,5 @@ export default function MobileSwiper({ children, onSwipe }: MobileSwiperProps) {
     };
   }, [handleTouchStart, handleTouchEnd]);
 
-  return <div ref={wrapperRef}>{children}</div>;
+  return <div ref={wrapperRef}>{children} --</div>;
 }
